@@ -1,0 +1,312 @@
+{
+  "users": [
+    {
+      "username": "Muhammad Maaz Tahir",
+      "email": "muhammadmaaztahir123@gmail.com",
+      "password": "123456",
+      "image": "",
+      "userType": "super admin",
+      "status": "active",
+      "id": 1,
+      "phone": "03302520183",
+      "house": "217",
+      "street": "3",
+      "state": "Sindh",
+      "country": "Pakistan"
+    }
+  ],
+  "customers": [
+    {
+      "username": "Taha Sheikh",
+      "password": "Karachi@7184",
+      "email": "tahashk7184@gmail.com",
+      "phone": "342423245",
+      "house": "921",
+      "street": "1",
+      "state": "Sindh",
+      "country": "Pakistan",
+      "image": "",
+      "status": "active",
+      "id": 1
+    },
+    {
+      "username": "saad",
+      "password": "123",
+      "email": "saad123@gmail.com",
+      "phone": "123344",
+      "house": "ss",
+      "street": "23",
+      "state": "33",
+      "country": "pak",
+      "image": "",
+      "status": "active",
+      "id": 2
+    },
+    {
+      "username": "arsalan",
+      "password": "123",
+      "email": "arsalanaftab191@gmail.com",
+      "phone": "123456787",
+      "house": "674",
+      "street": "2",
+      "state": "3",
+      "country": "Pakistan",
+      "image": "",
+      "status": "active",
+      "id": 3
+    },
+    {
+      "username": "naseer ahmed",
+      "password": "123456",
+      "email": "naseer123@gmail.com",
+      "phone": "0123456789",
+      "house": "",
+      "street": "",
+      "state": "",
+      "country": "",
+      "image": "",
+      "status": "active",
+      "id": 4
+    }
+  ],
+  "banner": [
+    {
+      "title": "Banner 01",
+      "status": "active",
+      "image": "http://res.cloudinary.com/djorpdesu/image/upload/v1674146282/cuekp1moogxqvnzska2h.jpg",
+      "id": 1
+    },
+    {
+      "title": "Banner 02",
+      "status": "active",
+      "image": "http://res.cloudinary.com/djorpdesu/image/upload/v1674146323/xenbtsqi8vtqbsmy4ksx.jpg",
+      "id": 2
+    },
+    {
+      "title": "ii",
+      "status": "hidden",
+      "image": "http://res.cloudinary.com/di2ow5e2d/image/upload/v1725021806/porsche-911-gt3-rs-2018-rear_v03pgz.jpg",
+      "id": 3
+    },
+    {
+      "title": "Hello",
+      "status": "active",
+      "image": "http://res.cloudinary.com/di2ow5e2d/image/upload/v1729330674/2_1_gbei2m.png",
+      "id": 4
+    }
+  ],
+  "category": [
+    {
+      "category": "Mens Shirt",
+      "status": "active",
+      "id": 1
+    },
+    {
+      "category": "women",
+      "status": "active",
+      "id": 2
+    },
+    {
+      "category": "Electronics",
+      "status": "hidden",
+      "id": 3
+    },
+    {
+      "category": "watch",
+      "status": "hidden",
+      "id": 4
+    }
+  ],
+  "coupon": [
+    {
+      "coupon": "Logic10",
+      "discount": 10,
+      "status": "active",
+      "id": 3
+    },
+    {
+      "coupon": "Logic20",
+      "discount": 20,
+      "status": "active",
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "title": "Legendary Whitetails Men's Textured Stretch Woven Plaid Short Sleeve Shirt",
+      "description": "Product details\nFabric type52% Cotton, 40% Recycled Polyester, 8% Spandex\nCare instructionsMachine Wash\nOriginImported\nClosure typeSnap\nCountry of OriginCambodia",
+      "brand": "own",
+      "status": "active",
+      "category": "Mens Shirt",
+      "price": 1500,
+      "image": "http://res.cloudinary.com/di2ow5e2d/image/upload/v1723204939/81SsL-MGE7L._AC_SX679__urthwe.jpg",
+      "id": 1
+    },
+    {
+      "title": "SSD",
+      "description": "this is ssd",
+      "brand": "goldenfir",
+      "status": "active",
+      "category": "Electronics",
+      "price": 190,
+      "image": "https://res.cloudinary.com/di2ow5e2d/image/upload/v1726483155/ssd_cv9ifk.webp",
+      "id": 5
+    },
+    {
+      "title": "watch",
+      "description": "rolex watch",
+      "brand": "rolex",
+      "status": "active",
+      "category": "watch",
+      "price": 999,
+      "image": "https://res.cloudinary.com/di2ow5e2d/image/upload/v1726483364/download_k7jgha.jpg",
+      "id": 6
+    }
+  ],
+  "orders": [
+    {
+      "customerId": 2,
+      "customerName": "saad",
+      "customerEmail": "saad123@gmail.com",
+      "date": "2024-08-30T12:03:27.280Z",
+      "coupon": "",
+      "discountPercent": 0,
+      "subTotal": 3482,
+      "total": 3482,
+      "deliveryInfo": {
+        "name": "saad",
+        "phone": "123344",
+        "house": "ss",
+        "street": "23",
+        "state": "33",
+        "country": "pak"
+      },
+      "products": [
+        {
+          "id": 3,
+          "title": "Men shirt",
+          "price": 130,
+          "image": "https://res.cloudinary.com/di2ow5e2d/image/upload/v1724755495/qfyTNt_gcl0y0.png",
+          "quantity": 5,
+          "total": 650
+        },
+        {
+          "id": 4,
+          "title": "SVSD",
+          "price": 333,
+          "image": "https://res.cloudinary.com/di2ow5e2d/image/upload/v1724759065/profile-pic_1_pybqax.png",
+          "quantity": 4,
+          "total": 1332
+        },
+        {
+          "id": 1,
+          "title": "Legendary Whitetails Men's Textured Stretch Woven Plaid Short Sleeve Shirt",
+          "price": 1500,
+          "image": "http://res.cloudinary.com/di2ow5e2d/image/upload/v1723204939/81SsL-MGE7L._AC_SX679__urthwe.jpg",
+          "quantity": 1,
+          "total": 1500
+        }
+      ],
+      "status": "active",
+      "id": 1
+    },
+    {
+      "customerId": 2,
+      "customerName": "saad",
+      "customerEmail": "saad123@gmail.com",
+      "date": "2024-08-30T12:32:57.436Z",
+      "coupon": "Logic20",
+      "discountPercent": 20,
+      "subTotal": 130,
+      "total": 104,
+      "deliveryInfo": {
+        "name": "saad",
+        "phone": "123344",
+        "house": "ss",
+        "street": "23",
+        "state": "33",
+        "country": "pak"
+      },
+      "products": [
+        {
+          "id": 3,
+          "title": "Men shirt",
+          "price": 130,
+          "image": "https://res.cloudinary.com/di2ow5e2d/image/upload/v1724755495/qfyTNt_gcl0y0.png",
+          "quantity": 1,
+          "total": 130
+        }
+      ],
+      "status": "pending",
+      "id": 2
+    },
+    {
+      "customerId": 3,
+      "customerName": "arsalan",
+      "customerEmail": "arsalanaftab191@gmail.com",
+      "date": "2024-09-16T10:43:43.534Z",
+      "coupon": "Logic20",
+      "discountPercent": 20,
+      "subTotal": 11499,
+      "total": 9199.2,
+      "deliveryInfo": {
+        "name": "arsalan",
+        "phone": "03010209887",
+        "house": "674",
+        "street": "HNO#674 SHEET 1 STREET 3 SECTOR 11 12 SHAH WALI ULLAH NAGAR ORANGI TOWN KARACHI",
+        "state": "3",
+        "country": "Pakistan"
+      },
+      "products": [
+        {
+          "id": 6,
+          "title": "watch",
+          "price": 999,
+          "image": "https://res.cloudinary.com/di2ow5e2d/image/upload/v1726483364/download_k7jgha.jpg",
+          "quantity": 1,
+          "total": 999
+        },
+        {
+          "id": 1,
+          "title": "Legendary Whitetails Men's Textured Stretch Woven Plaid Short Sleeve Shirt",
+          "price": 1500,
+          "image": "http://res.cloudinary.com/di2ow5e2d/image/upload/v1723204939/81SsL-MGE7L._AC_SX679__urthwe.jpg",
+          "quantity": 7,
+          "total": 10500
+        }
+      ],
+      "status": "active",
+      "id": 3
+    },
+    {
+      "customerId": 4,
+      "customerName": "naseer ahmed",
+      "customerEmail": "naseer123@gmail.com",
+      "date": "2024-10-19T09:40:47.308Z",
+      "coupon": "",
+      "discountPercent": 0,
+      "subTotal": 1500,
+      "total": 1500,
+      "deliveryInfo": {
+        "name": "naseer ahmed",
+        "phone": "0123456789",
+        "house": "gulshan",
+        "street": "street 2",
+        "state": "karachi",
+        "country": "pakistan"
+      },
+      "products": [
+        {
+          "id": 1,
+          "title": "Legendary Whitetails Men's Textured Stretch Woven Plaid Short Sleeve Shirt",
+          "price": 1500,
+          "image": "http://res.cloudinary.com/di2ow5e2d/image/upload/v1723204939/81SsL-MGE7L._AC_SX679__urthwe.jpg",
+          "quantity": 1,
+          "total": 1500
+        }
+      ],
+      "status": "active",
+      "id": 4
+    }
+  ]
+}
