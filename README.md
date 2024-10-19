@@ -2,7 +2,7 @@
 
 ## Live Demo
    
-[View live demo](https://my-e-commerce-ap.netlify.app/)
+[View live demo](https://e-commerce-navy-two-92.vercel.app/)
 
 ## installation   
 
